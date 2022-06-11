@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(0, 0, 0);
+    /* background: linear-gradient(30deg, rgba(24, 192, 214, 0.507), rgb(88, 88, 88)); */
+    min-height: 110vh;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(48, 224, 45);
+}
+section {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.inner-link {
+    background-color: rgb(75, 76, 78);
+    padding: 20px;
+    transition: 0.1s ease-in;
+    border: 2px solid rgb(75, 76, 78);
+    border-radius: 50px 50px 50px 50px ;
+    margin: auto;
+    width: 60%;
+}
+.inner-link:hover {
+    background-color: transparent;
+}
+.sub-head {
+    font-size: 13px;
+    margin: 0px 0px;
+    background-color: white;
+}
+.links-section {
+    margin-top: 30px;
+    border-radius: 15px 50px 30px;
+
+}
+.sub-sec {
+    border-radius: 15px 50px 30px;
+    margin: 15px 0px;
+}
+@media screen and (max-width: 720px) {
+    section {
+        width: 100%;
+    }
+}
+.logo-social {
+    width: 10%;
+    display: inline-block;
+    margin: 0px 15px;
+}
+.logo-tpc {
+    width: 50%;
+    display: inline-block;
+    
+}
